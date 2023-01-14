@@ -1,3 +1,13 @@
+class Text {
+  constructor(text) {
+    this.string = text;
+  }
+
+  toString() {
+    return this.string;
+  }
+}
+
 class Shout extends Text {
   constructor(text) {
     super(text);
